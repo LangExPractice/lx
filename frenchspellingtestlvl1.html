@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>French Speling lvl 1 Quiz</title>
+    <link rel="stylesheet" href="styles/frsplvl1styles.css">
+</head>
+<body>
+
+<header>
+    <h1>French Speling lvl 1 Quiz</h1>
+</header>
+
+<div class="container">
+    <div class="content">
+        <form id="quizForm">
+            <!--<label for="dropdownQuestion">1. What is your favorite color?</label>
+            <select id="dropdownQuestion" required>
+                <option value="">Select an option</option>
+                <option value="red">Red</option>
+                <option value="blue">Blue</option>
+                <option value="green">Green</option>
+                <option value="yellow">Yellow</option>
+            </select>-->
+
+            <label for="textQuestion">1. Type the words you hear in the audios.</label>
+            <audio controls>
+                <source src="audio/lvl1-1.mp3" type="audio/mpeg">
+            </audio>
+            <input type="text" id="textQuestion" required autocomplete="off">
+            
+            <audio controls>
+                <source src="audio/lvl1-2.mp3" type="audio/mpeg">
+            </audio>
+            <input type="text" id="textQuestion2" required autocomplete="off">
+            
+            <audio controls>
+                <source src="audio/lvl1-3.mp3" type="audio/mpeg">
+            </audio>
+            <input type="text" id="textQuestion3" required autocomplete="off">
+            
+            <audio controls>
+                <source src="audio/lvl1-4.mp3" type="audio/mpeg">
+            </audio>
+            <input type="text" id="textQuestion4" required autocomplete="off">
+            
+            <audio controls>
+                <source src="audio/lvl1-5.mp3" type="audio/mpeg">
+            </audio>
+            <input type="text" id="textQuestion5" required autocomplete="off">
+            
+            <audio controls>
+                <source src="audio/lvl1-6.mp3" type="audio/mpeg">
+            </audio>
+            <input type="text" id="textQuestion6" required autocomplete="off">
+            
+            <audio controls>
+                <source src="audio/lvl1-7.mp3" type="audio/mpeg">
+            </audio>
+            <input type="text" id="textQuestion7" required autocomplete="off">
+            
+            <audio controls>
+              <source src="audio/lvl1-8.mp3" type="audio/mpeg">
+            </audio>
+            <input type="text" id="textQuestion8" required autocomplete="off">
+            
+            <audio controls>
+              <source src="audio/lvl1-9.mp3" type="audio/mpeg">
+            </audio>
+            <input type="text" id="textQuestion9" required autocomplete="off">
+            
+            <audio controls>
+              <source src="audio/lvl1-10.mp3" type="audio/mpeg">
+            </audio>
+            <input type="text" id="textQuestion10" required autocomplete="off">
+            
+            <audio controls>
+              <source src="audio/lvl1-11.mp3" type="audio/mpeg">
+            </audio>
+            <input type="text" id="textQuestion11" required autocomplete="off">
+            
+            <audio controls>
+              <source src="audio/lvl1-12.mp3" type="audio/mpeg">
+            </audio>
+            <input type="text" id="textQuestion12" required autocomplete="off">
+            
+            <audio controls>
+              <source src="audio/lvl1-13.mp3" type="audio/mpeg">
+            </audio>
+            <input type="text" id="textQuestion13" required autocomplete="off">
+            <!--<label>3. Which of the following is a fruit?</label>
+            <div class="radio-group">
+                <label>
+                    <input type="radio" name="fruit" value="apple">
+                    Apple
+                </label>
+                <label>
+                    <input type="radio" name="fruit" value="carrot">
+                    Carrot
+                </label>
+                <label>
+                    <input type="radio" name="fruit" value="banana">
+                    Banana
+                </label>
+            </div>-->
+
+            <button type="submit">Submit</button>
+        </form>
+
+        <div class="result" id="result"></div>
+    </div>
+</div>
+<script src="scripts/frenchspellinglvl1.js"></script>
+</body>
+</html>
